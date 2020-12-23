@@ -10,7 +10,7 @@
 ---
 ---
 
-api-facial-recognition is developed by **Ibrahima BA** and **Ibrahima Gaye**, its goal is to provide a dynamic way to build facial recognizer deep learning model. We use a combination of **opencv**, **dlib**, **zmq**, **multiprocessing** and **genetic programming**, grouped in the form of an **api (flask)**. It allows users to send a bunch of images and retrieve a a model that can recognize faces instances that was previously sent. The building process is based on keras tensorflow, but we had add an optimizer process that can find the optimal topology of the network with the best accuracy. We use the evolutionary strategy named GA : Genetic Algorithm to achieve this goal.
+api-facial-recognition is developed by **Ibrahima BA** and **Ibrahima Gaye**, its goal is to provide a dynamic way to build facial recognizer deep learning model. We use a combination of **opencv**, **dlib**, **zmq**, **multiprocessing** and **genetic programming**, grouped in the form of an **api (flask)**. It allows users to send a bunch of images and retrieve a **model** that can recognize faces instances that was previously sent. The building process is based on keras tensorflow, but we had add an optimizer process that can find the optimal topology of the network with the best accuracy. We use the evolutionary strategy named GA : Genetic Algorithm to achieve this goal.
 
 # contents
 * [structure](#structure)
@@ -89,7 +89,7 @@ It contains the :
 
 # installation
 ```bash
-    git clone git clone https://github.com/Milkymap/api-facial-recognition.git
+    git clone https://github.com/Milkymap/api-facial-recognition.git
     cd api-facial-recognition
     git checkout -b develop 
     git pull origin develop 

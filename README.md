@@ -10,7 +10,7 @@
 ---
 ---
 
-api-facial-recognition is developed by Ibrahima BA and Ibrahima Gaye, its goal is to provide a dynamic way to build facial recognizer deep learning model. We use a combination of **opencv** and **dlib facial landmarks** in the form of api **flask**. It allows users to send a bunch of images and retrieve a a model that can recognize faces instances that was previously sent. The building process is based on keras tensorflow, but we also add an optimizer process that can find the optimal topology of the network with the best accuracy. We use the evolutionary strategy named GA : Genetic Algorithm to achieve this goal. 
+api-facial-recognition is developed by **Ibrahima** BA and I**brahima Gaye**, its goal is to provide a dynamic way to build facial recognizer deep learning model. We use a combination of **opencv** and **dlib facial landmarks** in the form of api **flask**. It allows users to send a bunch of images and retrieve a a model that can recognize faces instances that was previously sent. The building process is based on keras tensorflow, but we also add an optimizer process that can find the optimal topology of the network with the best accuracy. We use the evolutionary strategy named GA : Genetic Algorithm to achieve this goal. 
 
 # contents
 * [structure](#structure)
@@ -47,6 +47,11 @@ It contains the :
     * modelization
         * contains the logic of building face recognizer models  
         * once the models was build, they will be stored to dumps 
+    * optimization
+        * contains the optimizer based on Genetic Programming
+        * this optimizer will search the best topology of the neural network 
+        * it will try to minimize the number of layer and maximize the accuracy 
+        * this features is not required, the user can discard it during the request 
     * test
         * validates the behavior of descriptor
         * based on pytest and hypothesis 

@@ -1,0 +1,12 @@
+click==7.1.2
+dlib==19.21.1
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+loguru==0.5.3
+MarkupSafe==1.1.1
+numpy==1.19.4
+opencv-python==4.4.0.46
+pyzmq==20.0.0
+uWSGI==2.0.19.1
+Werkzeug==1.0.1

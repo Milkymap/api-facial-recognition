@@ -10,7 +10,7 @@
 ---
 ---
 
-api-facial-recognition is developed by **Ibrahima** BA and I**brahima Gaye**, its goal is to provide a dynamic way to build facial recognizer deep learning model. We use a combination of **opencv** and **dlib facial landmarks** in the form of api **flask**. It allows users to send a bunch of images and retrieve a a model that can recognize faces instances that was previously sent. The building process is based on keras tensorflow, but we also add an optimizer process that can find the optimal topology of the network with the best accuracy. We use the evolutionary strategy named GA : Genetic Algorithm to achieve this goal. 
+api-facial-recognition is developed by **Ibrahima BA** and I**brahima Gaye**, its goal is to provide a dynamic way to build facial recognizer deep learning model. We use a combination of **opencv** and **dlib facial landmarks** in the form of api **flask**. It allows users to send a bunch of images and retrieve a a model that can recognize faces instances that was previously sent. The building process is based on keras tensorflow, but we also add an optimizer process that can find the optimal topology of the network with the best accuracy. We use the evolutionary strategy named GA : Genetic Algorithm to achieve this goal. 
 
 # contents
 * [structure](#structure)
@@ -22,8 +22,7 @@ api-facial-recognition is developed by **Ibrahima** BA and I**brahima Gaye**, it
 
 # structure
 
-this project is structured in a modular way is to link to several libraries such **[opencv, numpy, flask, zmq, loguru]** and the pre-trained model yolov3.
-
+this project is structured in a modular way, it is linked to several libraries such as **[opencv, numpy, flask, zmq, loguru, multiprocessing]** 
 It contains the :
 * following directories:
     * app
